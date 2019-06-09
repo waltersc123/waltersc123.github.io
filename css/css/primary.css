@@ -1,0 +1,125 @@
+/*
+Name: Skyrawr
+Desc: Build a website using/exploring bootstrap
+Author: Corey Walters
+Date: 05/07/19
+
+==================
+Color Scheme:
+Dark Purple: rgb(39,15,54)
+Purple:		 rgb(99,43,108)
+Pink:		 rgb(199,107,152)
+Salmon:		 rgb(240,159,156)
+Tan:		 rgb(252,195,163)
+*/
+body{
+	text-align: center;
+	background-color: rgb(240,159,156);
+}
+.navbar-nav li{
+	
+	padding-left: 2.5em;
+	padding-right: 4em;
+	
+}
+.navbar-nav .nav-link{
+	color: rgb(199,107,152);
+	text-shadow: 1px 1px rgb(39,15,54);
+}
+.navbar-toggler-icon{
+	border: 2px solid black;
+	
+}
+.navbar-nav .dropdown-menu{
+	background-color: rgb(39,15,54);
+
+}
+.contact{
+		color: rgb(252,195,163);
+	
+}
+
+.contactInfo{
+		color: rgb(215,200,43);
+		background-color: rgb(99,43,108);
+		font-size: 20px;
+		font-weight: bold;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		margin-bottom: 5em;
+}
+
+.carousel{
+	width: 100%;
+	clear: both;
+	margin-bottom: 1em;
+}
+
+.btn-primary{
+	background-color: rgb(4,171,160);
+	border-color: rgb(215,200,43);
+}
+.btn-primary:hover {
+	background-color: rgb(215,200,43);
+	
+}
+.popover-header{
+	background-color:rgb(61,87,134);
+	color: rgb(4,171,160);
+	
+}
+.popover-body{
+	background-color:rgb(41,91,167);
+	color: rgb(4,171,160);
+	
+}
+.navbar-nav .nav-link {
+	font-family: ariel, helvetica, sans-serif;
+	color: rgbrgb(99,43,108);
+	font-size: 25px;
+	
+}
+
+.navbar-nav .nav-link:hover {
+	color: rgb(99,43,108);
+	font-weight: bold;
+	
+}
+.heading{
+	padding-top: 1em;
+	font-size: 50px;
+	color: rgb(99,43,108);
+	
+}
+.welcoming{
+	padding:1em;
+	color:rgb(240,159,156);
+	background-color: rgb(39,15,54);
+	
+
+}
+.hours{
+	color: rgb(240,159,156);
+	padding: 1em;
+	
+	background-color: rgb(99,43,108);
+	
+}
+.rental{
+	padding: 1em;
+	color: rgb(240,159,156);
+	background-color: rgb(39,15,54);
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+footer{
+	margin: 0 auto;
+	bottom:0;
+	clear:both;
+}
+.footInfo{
+	color: rgb(240,159,156);
+	background-color: rgb(99,43,108);
+	padding: 1em;
+}
