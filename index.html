@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Corey Walters Portfolio</title
+<title>Skyrawr</title>
 <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, inital-scale=1">
 	<!-- jquery JavaScript library link -->
@@ -9,85 +9,109 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="scripts/primary.js"></script>
+	 <script src="https://embed.twitch.tv/embed/v1.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
 	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="icon" href="images/1.png" type="image/png height="16px" width="16px">
+	<link rel="stylesheet" href="css/primary.css">
+	<link rel="icon" href="images/1.png" type="image/png">
 </head>
+
+
+<body>
 <header class="container">
-<h1 class="heading">Hello and Welcome</h1>
-<nav class="navbar navbar-expand-sm">
+
+<nav class="navbar navbar-expand">
 			
-			<button class="navbar-toggler" type="button" 
-			data-toggle="collapse"
-			data-target="#hideMenu"
-			aria-controls="nav-content"
-			aria-expand="false"
-			aria-label="Toggle navigation">
 			
-			<span class="navbar-toggler-icon"><img src="images/1.png"></span>
-	
-			</button>
-			
-			<section class="collapse navbar-collapse" id="hideMenu">
 	<ul class = "navbar-nav">
 		<li class="nav-item">
 		
-			<a href="#" class="nav-link">Home</a>
-			</li>
+			<a href="index.html" class="nav-link"><i class="fas fa-home"></i></a>
+		</li>
 			
-			<li class="nav-item">
-			<a href="#" class="nav-link">About</a>
-			</li>
-			<li class="nav-item">
-			<a href="#" class="nav-link">Social Media</a>
-			</li>
-			<li class="nav-item">
-			<a href="#" class="nav-link">Partners</a>
-			</li>
-			<li class="nav-item dropdown">
+		<li class="nav-item">
+			<a href="calendar.html" class="nav-link"><i class="fas fa-calendar-alt"></i></a>
+		</li>
+		
+		<li class="nav-item">
+			<a href="#" class="nav-link"><i class="fas fa-tag"></i></a>
+		</li>
 			
-				<a href="#" class="nav-link dropdown-toggle"
-					data-toggle="dropdown"
-					role="button">
-						About</a>
-			<ul class="dropdown-menu">
-			<li class="dropdown-item">
-				<a href="#" class="contact"> Contact Us!</a>
-				
-			</li>
-			</ul>
-			
-			</ul>
-			</section>
+		<li class="nav-item">
+			<a href="#" class="nav-link"><i class="fab fa-twitch"></i></a>
+		</li>
+		<li class="nav-item">
+			<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+		</li>
+		
+		<li class="nav-item">
+			<a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+		</li>
+		
+		<li class="nav-item">
+			<a href="#" class="nav-link"><i class="fab fa-youtube"></i></a>
+		</li>
+		
+		<li class="nav-item">
+			<a href="mailto:corey.a.walters@hotmail.com" class="nav-link"><i class="fas fa-envelope"></i></a>
+		</li>
+		
+		</ul>
 </nav>
+
 </header>
-<body>
-<div class="container">
-  <div class="row"><div class="col-12">
-      <p class="welcoming"> My name is Corey Walters. I am a student that is aspiring to be a Web/UX Developer.</p>
-    </div>
+	<div class="container">
+	<div id="twitch-embed"></div>
+    <script>
+      new Twitch.Embed("twitch-embed", {
+        width: "100%",
+        height: 380,
+        channel: "GP_TV",
+		layout: "video"
+      });
+    </script>
+	
 	</div>
-	</div>
 <div class="container">
-    <div class="row"><div class="col-12">
-      <p class="hours">Below you will find some examples of my work.
-    </div>
+		<div class="row"><div class="col-12">
+			<p class="hours"><i class="fas fa-play-circle"></i> STREAM </p>
+		</div>
     </div>
   </div>
   
   <div class="container">
+  <div class="row"><div class="col-12">
+      <p class="welcoming"> Welcome to Skyrawr! Here you will find yourself a community of people that are caring a welcoming! Everyone is welcome and we are here to share the love. If you want to share cat pictures do it! If you just had a really good cup of tea pass that info along! More tea the better! We are extremely happy to have you and cannot wait for all the fun we as a community can have together!</p>
+    </div>
+	</div>
+	</div>
+
+<div class="container">
+<div class="row"><div class="col-6">
+<p class="games">Current Games</p>
+</div>
+<div class="col-6">
+<p class="ythl">YouTube Highlights</p>
+</div>
+</div>
+
+<div class="row"><div class="col-6">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/love.jpg" alt="Two hands making a heart.">
+      <img class="d-block w-100" src="images/overcooked.jpg" alt="Overcooked the game.">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/tea.jpg" alt="Cartoon Cup of tea.">
+      <img class="d-block w-100" src="images/tomb.jpg" alt="Rise of the Tomb Raider game.">
+    </div>
+	<div class="carousel-item">
+      <img class="d-block w-100" src="images/assassin.jpg" alt="Assassins Creed the game.">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -98,32 +122,50 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+  </div>
+
+
+</div>
+
+
+<div class="col-6">
+
+	<div id="ytplayer"></div>
+	<script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '360',
+      width: '100%',
+	 
+      videoId: 'h_RKXRut0I8'	  
+	  
+    });
+  }
+</script>
+
 </div>
 </div>
-<div class="container">
-	<div class="row">
-		<div class="col">
-			<p class="rental">There are alot of different ways to get to my content and to see what I do! </p>
-		</div>
-	</div>
 </div>
-	
-<div class="container">
-	<div class="row">
-		<div class="col">
-			<p class="contactInfo">
-				<a href="#"><i class='fab fa-instagram' style='font-size:36px'></i></a>
-				<a href="#"><i class='fab fa-twitter' style='font-size:36px'></i></a>
-				<a href="#"><i class='fab fa-twitch' style="font-size:36px"></i></a>
-				<a href="#"><i class='fab fa-youtube' style='font-size:36px'></i></a>
-			</p>
-		</div>
-	</div>
+
+
+<footer class="page-footer fixed-bottom">
+<div class="container-fluid text-center text-md-left">
+<div class="row"><div class="col-12">
+<p class="footInfo">&#169; Skyrawr, Created by Corey Walters </p>
+
 </div>
-</body>
-<footer>
-<div class="container">
-<p class="footInfo">&#169; waltersc123.github.io Created by Corey Walters </p>
 </div>
+</div>
+
 </footer>
+</body>
 </html>
