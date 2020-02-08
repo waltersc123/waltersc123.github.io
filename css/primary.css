@@ -7,7 +7,7 @@ h1 {
   padding-top: 1em;
   padding-bottom: 0.5em;
   color: #ffffff;
-  font-size: 45px; }
+  font-size: 70px; }
 
 h2 {
   color: #01395e;
@@ -20,13 +20,7 @@ p.welcoming {
   padding: 1em;
   color: #ffffff;
   font-weight: bold;
-  font-size: 70px; }
-
-p.welcoming2 {
-  padding: 1em;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 35px; }
+  font-size: 40px; }
 
 .links {
   padding-top: 1em; }
