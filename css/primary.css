@@ -6,7 +6,6 @@ body {
 h1 {
   padding-top: 1em;
   padding-bottom: 0.5em;
-  text-align: left;
   color: #ffffff;
   font-size: 45px; }
 
@@ -18,7 +17,6 @@ h2 {
   font-weight: bold; }
 
 p.welcoming {
-  text-align: left;
   padding: 1em;
   color: #01395e;
   font-weight: bold;
