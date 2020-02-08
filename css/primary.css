@@ -6,19 +6,19 @@ body {
 h1 {
   padding-top: 1em;
   padding-bottom: 0.5em;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   font-size: 45px; }
 
 h2 {
   color: #01395e;
-  text-align: center;
+  text-align: left;
   margin-bottom: 1em;
   font-size: 25px;
   font-weight: bold; }
 
 p.welcoming {
-  text-align: center;
+  text-align: left;
   padding: 1em;
   color: #01395e;
   font-weight: bold;
