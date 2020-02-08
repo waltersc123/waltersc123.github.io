@@ -1,7 +1,7 @@
 body {
   background-color: #fd4445;
   background-image: url("/images/bridge.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, helvetica, tahoma; }
 
