@@ -20,7 +20,13 @@ p.welcoming {
   padding: 1em;
   color: #ffffff;
   font-weight: bold;
-  font-size: 40px; }
+  font-size: 70px; }
+
+p.welcoming2 {
+  padding: 1em;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 35px; }
 
 .links {
   padding-top: 1em; }
