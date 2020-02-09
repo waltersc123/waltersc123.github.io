@@ -72,8 +72,8 @@ p.lan {
 
 footer {
   margin-top: 2em;
-  padding-top: 2em;
-  padding-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: .5em;
   background-color: #ffaf00;
   color: #01395e;
   text-align: center;
